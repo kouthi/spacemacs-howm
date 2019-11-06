@@ -63,8 +63,8 @@ Each entry is either:
   (use-package howm
     :config
     (setq howm-menu-lang 'ja)
-    (setq howm-directory "~/Dropbox/howm/")
-    (setq howm-keyword-file "~/Dropbox/howm/.howm-keys")
+    (setq howm-directory "~/dropbox/howm/")
+    (setq howm-keyword-file "~/dropbox/howm/.howm-keys")
     (setq howm-file-name-format "%Y/%m/%Y_%m_%d.txt")
     (setq howm-keyword-case-fold-search t)
     (setq howm-view-split-horizontally t)
