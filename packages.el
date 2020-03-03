@@ -65,7 +65,7 @@ Each entry is either:
     (setq howm-menu-lang 'ja)
     (setq howm-directory "~/dropbox/howm/")
     (setq howm-keyword-file "~/dropbox/howm/.howm-keys")
-    (setq howm-file-name-format "%Y/%m/%Y_%m_%d.txt")
+    (setq howm-file-name-format "%Y/%m/%Y-%m-%d_%H%M%S.org")
     (setq howm-keyword-case-fold-search t)
     (setq howm-view-split-horizontally t)
     ))
