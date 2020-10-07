@@ -68,6 +68,18 @@ Each entry is either:
     (setq howm-file-name-format "%Y/%m/%Y-%m-%d_%H%M%S.org")
     (setq howm-keyword-case-fold-search t)
     (setq howm-view-split-horizontally t)
+    (spacemacs/declare-prefix "," "howm")
+    (spacemacs/set-leader-keys ",," 'howm-menu)
+    (spacemacs/set-leader-keys ",." 'howm-find-today)
+    (spacemacs/set-leader-keys ",:" 'howm-find-yesterday)
+    (spacemacs/set-leader-keys ",a" 'howm-list-all)
+    (spacemacs/set-leader-keys ",c" 'howm-create)
+    (spacemacs/set-leader-keys ",d" 'howm-insert-date)
+    (spacemacs/set-leader-keys ",e" 'howm-remember)
+    (spacemacs/set-leader-keys ",m" 'howm-list-migemo)
+    (spacemacs/set-leader-keys ",o" 'howm-occur)
+    (spacemacs/set-leader-keys ",w" 'howm-random-walk)
+    (spacemacs/set-leader-keys ",I" 'howm-create-interactively)
     ))
 
 ;;; packages.el ends here
