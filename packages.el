@@ -68,6 +68,8 @@ Each entry is either:
     (setq howm-file-name-format "%Y/%m/%Y-%m-%d_%H%M%S.org")
     (setq howm-keyword-case-fold-search t)
     (setq howm-view-split-horizontally t)
+    (setq howm-view-use-grep t)
+    (setq howm-migemo-client '((type . cmigemo) (command . "cmigemo")))
     (spacemacs/declare-prefix "," "howm")
     (spacemacs/set-leader-keys ",," 'howm-menu)
     (spacemacs/set-leader-keys ",." 'howm-find-today)
