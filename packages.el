@@ -71,6 +71,7 @@ Each entry is either:
     (setq howm-view-split-horizontally t)
     (setq howm-view-use-grep t)
     (setq howm-migemo-client '((type . cmigemo) (command . "cmigemo")))
+    ;; keymap
     (spacemacs/declare-prefix "," "howm")
     (spacemacs/set-leader-keys ",," 'howm-menu)
     (spacemacs/set-leader-keys ",." 'howm-find-today)
@@ -79,10 +80,10 @@ Each entry is either:
     (spacemacs/set-leader-keys ",c" 'howm-create)
     (spacemacs/set-leader-keys ",d" 'howm-insert-date)
     (spacemacs/set-leader-keys ",e" 'howm-remember)
+    (spacemacs/set-leader-keys ",i" 'howm-insert-keyword)
     (spacemacs/set-leader-keys ",m" 'howm-list-migemo)
     (spacemacs/set-leader-keys ",o" 'howm-occur)
-    (spacemacs/set-leader-keys ",w" 'howm-random-walk)
-    (spacemacs/set-leader-keys ",I" 'howm-create-interactively)
+    (spacemacs/set-leader-keys ",T" 'howm-insert-dtime)
     ))
 
 ;;; packages.el ends here
