@@ -63,6 +63,7 @@ Each entry is either:
   (use-package howm
     :config
     (setq howm-menu-lang 'ja)
+    (setq howm-menu-recent-num 7)
     (setq howm-directory "~/dropbox/howm/")
     (setq howm-keyword-file "~/dropbox/howm/.howm-keys")
     (setq howm-file-name-format "%Y/%m/%Y-%m-%d_%H%M%S.org")
