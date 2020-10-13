@@ -71,6 +71,7 @@ Each entry is either:
     (setq howm-view-split-horizontally t)
     (setq howm-view-use-grep t)
     (setq howm-migemo-client '((type . cmigemo) (command . "cmigemo")))
+    (setq howm-migemo-client-option '("-q" "-d" "/usr/share/cmigemo/utf-8/migemo-dict"))
     ;; keymap
     (spacemacs/declare-prefix "," "howm")
     (spacemacs/set-leader-keys ",," 'howm-menu)
