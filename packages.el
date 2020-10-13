@@ -70,6 +70,14 @@ Each entry is either:
     (setq howm-keyword-case-fold-search t)
     (setq howm-view-split-horizontally t)
     (setq howm-view-use-grep t)
+    ;; grep setting
+    (setq howm-view-grep-command "rg")
+    (setq howm-view-grep-option "-nH --no-heading --color never")
+    (setq howm-view-grep-extended-option nil)
+    (setq howm-view-grep-fixed-option "-F")
+    (setq howm-view-grep-expr-option nil)
+    (setq howm-view-grep-file-stdin-option nil)
+    ;; migemo
     (setq howm-migemo-client '((type . cmigemo) (command . "cmigemo")))
     (cond ((equal system-type 'darwin)
            (setq howm-migemo-client-option '("-q" "-d" "/usr/local/Cellar/cmigemo/20110227/share/migemo/utf-8/migemo-dict")))
